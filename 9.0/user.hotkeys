@@ -62,7 +62,7 @@ common.Control.expandAll
 common.Control.gridFast1	Alt+1	
 common.Control.gridFast2	Alt+2	
 common.Control.gridFastCycle	Alt+4	
-common.Control.gridNext	N	
+common.Control.gridNext	Z	
 common.Control.gridPreset		
 common.Control.gridPrev	Shift+N	
 common.Control.gridResetOrigin		
@@ -104,9 +104,10 @@ common.Control.saveCopy
 common.Control.selectColumns		
 common.Control.show3DViewer	Alt+3	
 common.Control.showContextMenu		
-common.Control.showDatasheet	D	
+common.Control.showDatasheet		
 common.Control.showFootprintBrowser		
 common.Control.showFootprintEditor		
+common.Control.showLibraryTable		
 common.Control.showLibraryTree		
 common.Control.showProjectManager		
 common.Control.showProperties		
@@ -268,7 +269,7 @@ eeschema.InteractiveDrawing.drawBezier
 eeschema.InteractiveDrawing.drawCircle		
 eeschema.InteractiveDrawing.drawRectangle		
 eeschema.InteractiveDrawing.drawRuleArea		
-eeschema.InteractiveDrawing.drawSheet	S	
+eeschema.InteractiveDrawing.drawSheet		
 eeschema.InteractiveDrawing.drawSheetFromDesignBlock		
 eeschema.InteractiveDrawing.drawSheetFromFile		
 eeschema.InteractiveDrawing.drawTable		
@@ -278,13 +279,13 @@ eeschema.InteractiveDrawing.placeBusWireEntry	Z
 eeschema.InteractiveDrawing.placeClassLabel		
 eeschema.InteractiveDrawing.placeDesignBlock	Shift+B	
 eeschema.InteractiveDrawing.placeGlobalLabel	Ctrl+L	
-eeschema.InteractiveDrawing.placeHierarchicalLabel	H	
+eeschema.InteractiveDrawing.placeHierarchicalLabel	S	
 eeschema.InteractiveDrawing.placeImage		
 eeschema.InteractiveDrawing.placeJunction	J	
-eeschema.InteractiveDrawing.placeLabel	L	
+eeschema.InteractiveDrawing.placeLabel	D	
 eeschema.InteractiveDrawing.placeNextSymbolUnit		
 eeschema.InteractiveDrawing.placeNoConnect	Q	
-eeschema.InteractiveDrawing.placePowerSymbol	P	
+eeschema.InteractiveDrawing.placePowerSymbol	C	
 eeschema.InteractiveDrawing.placeSchematicText	T	
 eeschema.InteractiveDrawing.placeSheetPin		
 eeschema.InteractiveDrawing.placeSymbol	A	
@@ -295,7 +296,7 @@ eeschema.InteractiveDrawingLineWireBus.drawLines	I
 eeschema.InteractiveDrawingLineWireBus.drawWires	W	
 eeschema.InteractiveDrawingLineWireBus.switchPosture	/	
 eeschema.InteractiveDrawingLineWireBus.undoLastSegment	Back	
-eeschema.InteractiveDrawingLineWireBus.unfoldBus	C	
+eeschema.InteractiveDrawingLineWireBus.unfoldBus		
 eeschema.InteractiveEdit.assignNetclass		
 eeschema.InteractiveEdit.autoplaceFields	O	
 eeschema.InteractiveEdit.breakWire		
@@ -577,7 +578,7 @@ pcbnew.EditorControl.highlightNetSelection
 pcbnew.EditorControl.importNetlist		
 pcbnew.EditorControl.importSpecctraSession		
 pcbnew.EditorControl.lock		
-pcbnew.EditorControl.placeFootprint	A	
+pcbnew.EditorControl.placeFootprint		
 pcbnew.EditorControl.removeFromGroup		
 pcbnew.EditorControl.showEeschema		
 pcbnew.EditorControl.showNet		
@@ -587,7 +588,7 @@ pcbnew.EditorControl.toggleLock	L
 pcbnew.EditorControl.toggleNetHighlight	Alt+`	
 pcbnew.EditorControl.trackViaSizeChanged		
 pcbnew.EditorControl.trackWidthDec	Shift+W	
-pcbnew.EditorControl.trackWidthInc	W	
+pcbnew.EditorControl.trackWidthInc	T	
 pcbnew.EditorControl.ungroup		
 pcbnew.EditorControl.unlock		
 pcbnew.EditorControl.viaSizeDec	\	
@@ -652,7 +653,7 @@ pcbnew.InteractiveDrawing.textbox
 pcbnew.InteractiveDrawing.via	Ctrl+Shift+X	
 pcbnew.InteractiveDrawing.zone	Ctrl+Shift+Z	
 pcbnew.InteractiveDrawing.zoneCutout	Shift+C	
-pcbnew.InteractiveEdit.FindMove	T	
+pcbnew.InteractiveEdit.FindMove	W	
 pcbnew.InteractiveEdit.chamferLines		
 pcbnew.InteractiveEdit.changeTrackWidth		
 pcbnew.InteractiveEdit.deleteFull	Shift+Del	
@@ -660,7 +661,7 @@ pcbnew.InteractiveEdit.dogboneCorners
 pcbnew.InteractiveEdit.duplicateIncrementPads	Ctrl+Shift+D	
 pcbnew.InteractiveEdit.extendLines		
 pcbnew.InteractiveEdit.filletLines		
-pcbnew.InteractiveEdit.filletTracks		
+pcbnew.InteractiveEdit.filletTracks	C	
 pcbnew.InteractiveEdit.flip	F	
 pcbnew.InteractiveEdit.healShapes		
 pcbnew.InteractiveEdit.intersectPolygons		
@@ -668,7 +669,7 @@ pcbnew.InteractiveEdit.mergePolygons
 pcbnew.InteractiveEdit.mirrorHoriontally		
 pcbnew.InteractiveEdit.mirrorVertically		
 pcbnew.InteractiveEdit.moveCorner		
-pcbnew.InteractiveEdit.moveExact	Shift+M	
+pcbnew.InteractiveEdit.moveExact	Shift+Q	
 pcbnew.InteractiveEdit.moveMidpoint		
 pcbnew.InteractiveEdit.packAndMoveFootprints	P	
 pcbnew.InteractiveEdit.properties	E	
@@ -679,14 +680,14 @@ pcbnew.InteractiveEdit.skip	Tab
 pcbnew.InteractiveEdit.subtractPolygons		
 pcbnew.InteractiveEdit.swap	Alt+S	
 pcbnew.InteractiveMove.copyWithReference		
-pcbnew.InteractiveMove.move	M	
+pcbnew.InteractiveMove.move	Q	
 pcbnew.InteractiveMove.moveIndividually	Ctrl+M	
 pcbnew.InteractiveMove.moveWithReference		
 pcbnew.InteractiveRouter.AttemptFinish	F	
 pcbnew.InteractiveRouter.Autoroute	Shift+F	
 pcbnew.InteractiveRouter.BreakTrack		
 pcbnew.InteractiveRouter.ContinueFromEnd	Ctrl+E	
-pcbnew.InteractiveRouter.CustomTrackViaSize	Q	
+pcbnew.InteractiveRouter.CustomTrackViaSize		
 pcbnew.InteractiveRouter.CycleRouterMode		
 pcbnew.InteractiveRouter.DiffPair	6	
 pcbnew.InteractiveRouter.DiffPairDialog		
@@ -717,7 +718,7 @@ pcbnew.InteractiveSelection.DeselectNet
 pcbnew.InteractiveSelection.FilterSelection		
 pcbnew.InteractiveSelection.GrabUnconnected	Shift+O	
 pcbnew.InteractiveSelection.ReselectItem		
-pcbnew.InteractiveSelection.SelectConnection	U	
+pcbnew.InteractiveSelection.SelectConnection	A	
 pcbnew.InteractiveSelection.SelectItem		
 pcbnew.InteractiveSelection.SelectItems		
 pcbnew.InteractiveSelection.SelectNet		
